@@ -9,7 +9,4 @@ RUN \
   apt-get -y upgrade && \
   rm -f sources.list 
 
-ENTRYPOINT ["/bin/bash"]
 CMD ["/bin/bash"]
-
-
